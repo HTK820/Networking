@@ -1,56 +1,28 @@
-# Multi-Router Static Routing with Multiple Subnets
+# Static Routing Labs (Cisco Packet Tracer)
 
 ## Overview
-This lab demonstrates **static routing across multiple routers** connecting several LAN subnets.  
-The topology simulates a small enterprise network with multiple departments and routing paths.
+This section contains Cisco Packet Tracer labs focused on **IPv4 Static Routing** concepts.  
+The labs demonstrate how routers are manually configured to forward traffic between
+multiple networks without using dynamic routing protocols.
 
-## Network Topology
-- 4 Cisco 2911 Routers (R1, R2, R3, R4)
-- Multiple Layer 2 switches
-- End hosts across six LAN subnets
-- Point-to-point links between routers
+These scenarios simulate **small to medium enterprise networks** and help build a
+strong foundation in routing logic, subnetting, and network troubleshooting.
 
-## LAN Subnets
+---
 
-### Left Side Networks
-- Subnet A: 192.168.1.0/24
-- Subnet B: 192.168.2.0/24
-- Subnet C: 192.168.3.0/24
+## Learning Objectives
+By completing these labs, you will be able to:
 
-### Right Side Networks
-- Subnet D: 192.168.4.0/24
-- Subnet E: 192.168.5.0/24
-- Subnet F: 192.168.6.0/24
+- Understand how static routes work in multi-router environments
+- Configure IPv4 static routes on Cisco routers
+- Design and verify routing between multiple LAN subnets
+- Troubleshoot connectivity issues using `ping` and `traceroute`
+- Apply correct next-hop and exit-interface routing methods
 
-## Inter-Router Networks
-- 192.168.7.0
-- 192.168.8.0
-- 192.168.9.0
-- 192.168.10.0
+---
 
-## Routing Configuration
-- Static routes configured on all routers
-- Each router has routes to all remote LAN subnets
-- Redundant routing paths implemented between routers
+## Lab Structure
 
-## Verification
-- End-to-end connectivity verified between all LAN subnets
-- Successful ping tests across multiple routing hops
-- Static route correctness validated
-
-## Skills Demonstrated
-- IP subnetting
-- Static routing
-- Multi-router topology design
-- Troubleshooting connectivity issues
-- Enterprise-style network segmentation
-
-## Tools Used
-- Cisco Packet Tracer
-- Cisco 2911 Routers
-- Cisco 2960 Switches
-
-## Author
-Heint Thant Kyaw  
-IT Networking & Cybersecurity Student
+Each subfolder represents a **separate static routing scenario**, organized by
+complexity and topology design.
 
