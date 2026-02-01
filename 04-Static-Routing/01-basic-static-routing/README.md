@@ -39,6 +39,3 @@ It simulates a small routed network where end devices communicate across differe
 - Cisco 2911 Routers
 - Cisco 2960 Switches
 
-## Author
-Heint Thant Kyaw  
-IT Networking & Cybersecurity Student
